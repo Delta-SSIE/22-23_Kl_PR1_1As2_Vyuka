@@ -1,4 +1,4 @@
-﻿namespace _001_Prvni_program
+﻿namespace _01_Uvod_01_Prvni_program
 {
     internal class Program
     {

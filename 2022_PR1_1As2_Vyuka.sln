@@ -19,19 +19,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Uvod_06_Nacitani_cisla",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Uvod_07_Char", "01_Uvod_07_Char\01_Uvod_07_Char.csproj", "{60D59F17-5D88-4F3C-9D24-7E05D612F328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Uvod_08_konzole_a_readwrite", "01_Uvod_08_konzole_a_readwrite\01_Uvod_08_konzole_a_readwrite.csproj", "{E746ABC2-66EF-4DA2-8859-DD81DED0DC68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01_Uvod_08_konzole_a_readwrite", "01_Uvod_08_konzole_a_readwrite\01_Uvod_08_konzole_a_readwrite.csproj", "{E746ABC2-66EF-4DA2-8859-DD81DED0DC68}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Podminky", "02-Podminky", "{FAD74354-EA33-436B-ABBC-01A0AD9A3960}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Podm_01_Vyber_auta", "02_Podm_01_Vyber_auta\02_Podm_01_Vyber_auta.csproj", "{350CE0C2-8BE5-4222-8666-BAA32CC1391A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Podm_01_Vyber_auta", "02_Podm_01_Vyber_auta\02_Podm_01_Vyber_auta.csproj", "{350CE0C2-8BE5-4222-8666-BAA32CC1391A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Podm_02_Vice_vetvi", "02_Podm_02_Vice_vetvi\02_Podm_02_Vice_vetvi.csproj", "{1F5813B9-CA64-4B4E-85A7-90150C7A8DB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Podm_02_Vice_vetvi", "02_Podm_02_Vice_vetvi\02_Podm_02_Vice_vetvi.csproj", "{1F5813B9-CA64-4B4E-85A7-90150C7A8DB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Podm_03_Jak_se_neopakovat", "02_Podm_03_Jak_se_neopakovat\02_Podm_03_Jak_se_neopakovat.csproj", "{3A1B2D17-A326-4C24-898F-0DF94FA9C607}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Podm_03_Jak_se_neopakovat", "02_Podm_03_Jak_se_neopakovat\02_Podm_03_Jak_se_neopakovat.csproj", "{3A1B2D17-A326-4C24-898F-0DF94FA9C607}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Podm_04_Delidlo", "02_Podm_04_Delidlo\02_Podm_04_Delidlo.csproj", "{95E67DA8-D19D-43AE-BD6E-FCFD9F92BDC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Podm_04_Delidlo", "02_Podm_04_Delidlo\02_Podm_04_Delidlo.csproj", "{95E67DA8-D19D-43AE-BD6E-FCFD9F92BDC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Podm_05_Bool", "02_Podm_05_Bool\02_Podm_05_Bool.csproj", "{FD2F02F6-C183-4359-ABD1-C037421FAB56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Podm_05_Bool", "02_Podm_05_Bool\02_Podm_05_Bool.csproj", "{FD2F02F6-C183-4359-ABD1-C037421FAB56}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "temp", "temp\temp.csproj", "{874B10C5-4DC7-4A55-94E1-F69A9AE4B2D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Podm_06_Prehled", "02_Podm_06_Prehled\02_Podm_06_Prehled.csproj", "{704A7B7E-359E-4BF9-BCAF-98649380DAA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02a-Random", "02a-Random", "{81FFC67A-F17F-4A87-AD99-AE9EB0392C6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Podm_07_Nacteni_klavesy", "02_Podm_07_Nacteni_klavesy\02_Podm_07_Nacteni_klavesy.csproj", "{FA239AD5-DAB1-4A12-9CCC-371D251F6420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02a_Random_01_Demo", "02a_random_01_Demo\02a_Random_01_Demo.csproj", "{DE6204CD-93C7-46A8-B4AD-0D027634693E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +101,22 @@ Global
 		{FD2F02F6-C183-4359-ABD1-C037421FAB56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD2F02F6-C183-4359-ABD1-C037421FAB56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD2F02F6-C183-4359-ABD1-C037421FAB56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{874B10C5-4DC7-4A55-94E1-F69A9AE4B2D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{874B10C5-4DC7-4A55-94E1-F69A9AE4B2D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{874B10C5-4DC7-4A55-94E1-F69A9AE4B2D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{874B10C5-4DC7-4A55-94E1-F69A9AE4B2D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{704A7B7E-359E-4BF9-BCAF-98649380DAA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704A7B7E-359E-4BF9-BCAF-98649380DAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704A7B7E-359E-4BF9-BCAF-98649380DAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704A7B7E-359E-4BF9-BCAF-98649380DAA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA239AD5-DAB1-4A12-9CCC-371D251F6420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA239AD5-DAB1-4A12-9CCC-371D251F6420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA239AD5-DAB1-4A12-9CCC-371D251F6420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA239AD5-DAB1-4A12-9CCC-371D251F6420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE6204CD-93C7-46A8-B4AD-0D027634693E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6204CD-93C7-46A8-B4AD-0D027634693E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6204CD-93C7-46A8-B4AD-0D027634693E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6204CD-93C7-46A8-B4AD-0D027634693E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +135,9 @@ Global
 		{3A1B2D17-A326-4C24-898F-0DF94FA9C607} = {FAD74354-EA33-436B-ABBC-01A0AD9A3960}
 		{95E67DA8-D19D-43AE-BD6E-FCFD9F92BDC9} = {FAD74354-EA33-436B-ABBC-01A0AD9A3960}
 		{FD2F02F6-C183-4359-ABD1-C037421FAB56} = {FAD74354-EA33-436B-ABBC-01A0AD9A3960}
+		{704A7B7E-359E-4BF9-BCAF-98649380DAA8} = {FAD74354-EA33-436B-ABBC-01A0AD9A3960}
+		{FA239AD5-DAB1-4A12-9CCC-371D251F6420} = {FAD74354-EA33-436B-ABBC-01A0AD9A3960}
+		{DE6204CD-93C7-46A8-B4AD-0D027634693E} = {81FFC67A-F17F-4A87-AD99-AE9EB0392C6E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {38C1C8D0-29B8-47BE-95B8-F061645B809A}

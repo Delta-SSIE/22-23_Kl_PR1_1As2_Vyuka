@@ -1,11 +1,13 @@
-﻿namespace _02a_random_01_Demo
+﻿using System;
+
+namespace _02a_random_01_Demo
 {
     internal class Program
     {
         static void Main(string[] args)
         {
             Random generator = new Random();
-
+            
             int nahoda = generator.Next(1, 7);
             //1 ...nejnižší, které chci
             //7 ... nejnižší, které už nechci

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.32804.182
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Uvod", "01-Uvod", "{3CEB8B93-D01E-4119-A695-9D877E83A0DB}"
 EndProject
@@ -35,13 +35,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Podm_05_Bool", "02_Podm_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "temp", "temp\temp.csproj", "{874B10C5-4DC7-4A55-94E1-F69A9AE4B2D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Podm_06_Prehled", "02_Podm_06_Prehled\02_Podm_06_Prehled.csproj", "{704A7B7E-359E-4BF9-BCAF-98649380DAA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Podm_06_Prehled", "02_Podm_06_Prehled\02_Podm_06_Prehled.csproj", "{704A7B7E-359E-4BF9-BCAF-98649380DAA8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02a-Random", "02a-Random", "{81FFC67A-F17F-4A87-AD99-AE9EB0392C6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Podm_07_Nacteni_klavesy", "02_Podm_07_Nacteni_klavesy\02_Podm_07_Nacteni_klavesy.csproj", "{FA239AD5-DAB1-4A12-9CCC-371D251F6420}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Podm_07_Nacteni_klavesy", "02_Podm_07_Nacteni_klavesy\02_Podm_07_Nacteni_klavesy.csproj", "{FA239AD5-DAB1-4A12-9CCC-371D251F6420}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02a_Random_01_Demo", "02a_random_01_Demo\02a_Random_01_Demo.csproj", "{DE6204CD-93C7-46A8-B4AD-0D027634693E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02a_Random_01_Demo", "02a_random_01_Demo\02a_Random_01_Demo.csproj", "{DE6204CD-93C7-46A8-B4AD-0D027634693E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Podm_08_Je_Torjuhelnik", "02_Podm_08_Je_Torjuhelnik\02_Podm_08_Je_Torjuhelnik.csproj", "{414CA1AD-F829-424D-8E05-A7FBB24F86C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Podm_09_kolik_dnu", "02_Podm_09_kolik_dnu\02_Podm_09_kolik_dnu.csproj", "{C0AA3413-4894-4A56-83F9-F5872BB91503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Podm_10_Prestupny_rok", "02_Podm_10_Prestupny_rok\02_Podm_10_Prestupny_rok.csproj", "{36146EA9-16A1-4CD6-BF9E-CA0D9E84D6D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Podm_11_Nejvetsi", "02_Podm_11_Nejvetsi\02_Podm_11_Nejvetsi.csproj", "{ABD117FF-EE98-46B2-B9C5-80AA9654C87F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +125,22 @@ Global
 		{DE6204CD-93C7-46A8-B4AD-0D027634693E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE6204CD-93C7-46A8-B4AD-0D027634693E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE6204CD-93C7-46A8-B4AD-0D027634693E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{414CA1AD-F829-424D-8E05-A7FBB24F86C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414CA1AD-F829-424D-8E05-A7FBB24F86C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414CA1AD-F829-424D-8E05-A7FBB24F86C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414CA1AD-F829-424D-8E05-A7FBB24F86C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0AA3413-4894-4A56-83F9-F5872BB91503}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AA3413-4894-4A56-83F9-F5872BB91503}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0AA3413-4894-4A56-83F9-F5872BB91503}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AA3413-4894-4A56-83F9-F5872BB91503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36146EA9-16A1-4CD6-BF9E-CA0D9E84D6D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36146EA9-16A1-4CD6-BF9E-CA0D9E84D6D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36146EA9-16A1-4CD6-BF9E-CA0D9E84D6D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36146EA9-16A1-4CD6-BF9E-CA0D9E84D6D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABD117FF-EE98-46B2-B9C5-80AA9654C87F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABD117FF-EE98-46B2-B9C5-80AA9654C87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABD117FF-EE98-46B2-B9C5-80AA9654C87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABD117FF-EE98-46B2-B9C5-80AA9654C87F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -138,6 +162,10 @@ Global
 		{704A7B7E-359E-4BF9-BCAF-98649380DAA8} = {FAD74354-EA33-436B-ABBC-01A0AD9A3960}
 		{FA239AD5-DAB1-4A12-9CCC-371D251F6420} = {FAD74354-EA33-436B-ABBC-01A0AD9A3960}
 		{DE6204CD-93C7-46A8-B4AD-0D027634693E} = {81FFC67A-F17F-4A87-AD99-AE9EB0392C6E}
+		{414CA1AD-F829-424D-8E05-A7FBB24F86C5} = {FAD74354-EA33-436B-ABBC-01A0AD9A3960}
+		{C0AA3413-4894-4A56-83F9-F5872BB91503} = {FAD74354-EA33-436B-ABBC-01A0AD9A3960}
+		{36146EA9-16A1-4CD6-BF9E-CA0D9E84D6D6} = {FAD74354-EA33-436B-ABBC-01A0AD9A3960}
+		{ABD117FF-EE98-46B2-B9C5-80AA9654C87F} = {FAD74354-EA33-436B-ABBC-01A0AD9A3960}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {38C1C8D0-29B8-47BE-95B8-F061645B809A}

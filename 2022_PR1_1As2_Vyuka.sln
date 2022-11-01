@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32901.82
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32916.344
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Uvod", "01-Uvod", "{3CEB8B93-D01E-4119-A695-9D877E83A0DB}"
 EndProject
@@ -43,13 +43,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Podm_07_Nacteni_klavesy"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02a_Random_01_Demo", "02a_random_01_Demo\02a_Random_01_Demo.csproj", "{DE6204CD-93C7-46A8-B4AD-0D027634693E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Podm_08_Je_Torjuhelnik", "02_Podm_08_Je_Torjuhelnik\02_Podm_08_Je_Torjuhelnik.csproj", "{414CA1AD-F829-424D-8E05-A7FBB24F86C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Podm_08_Je_Torjuhelnik", "02_Podm_08_Je_Torjuhelnik\02_Podm_08_Je_Torjuhelnik.csproj", "{414CA1AD-F829-424D-8E05-A7FBB24F86C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Podm_09_kolik_dnu", "02_Podm_09_kolik_dnu\02_Podm_09_kolik_dnu.csproj", "{C0AA3413-4894-4A56-83F9-F5872BB91503}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Podm_09_kolik_dnu", "02_Podm_09_kolik_dnu\02_Podm_09_kolik_dnu.csproj", "{C0AA3413-4894-4A56-83F9-F5872BB91503}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Podm_10_Prestupny_rok", "02_Podm_10_Prestupny_rok\02_Podm_10_Prestupny_rok.csproj", "{36146EA9-16A1-4CD6-BF9E-CA0D9E84D6D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Podm_10_Prestupny_rok", "02_Podm_10_Prestupny_rok\02_Podm_10_Prestupny_rok.csproj", "{36146EA9-16A1-4CD6-BF9E-CA0D9E84D6D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Podm_11_Nejvetsi", "02_Podm_11_Nejvetsi\02_Podm_11_Nejvetsi.csproj", "{ABD117FF-EE98-46B2-B9C5-80AA9654C87F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02_Podm_11_Nejvetsi", "02_Podm_11_Nejvetsi\02_Podm_11_Nejvetsi.csproj", "{ABD117FF-EE98-46B2-B9C5-80AA9654C87F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-While", "03-While", "{8633C658-1B1A-4F3D-B07E-F514F746A36C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_While_01_Kladne_cislo", "03_While_01_Kladne_cislo\03_While_01_Kladne_cislo.csproj", "{D4742D5A-7313-4346-9DC7-BBC811285184}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_While_02_Pocitani", "03_While_02_Pocitani\03_While_02_Pocitani.csproj", "{BCAA334F-4D14-43A1-A6DB-AA4A813B78D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_While_03_Den_v_tydnu_bezpecne", "03_While_03_Den_v_tydnu_bezpecne\03_While_03_Den_v_tydnu_bezpecne.csproj", "{9BD4CCC5-09CD-4DD4-BBF3-10822632D2B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +149,18 @@ Global
 		{ABD117FF-EE98-46B2-B9C5-80AA9654C87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABD117FF-EE98-46B2-B9C5-80AA9654C87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABD117FF-EE98-46B2-B9C5-80AA9654C87F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4742D5A-7313-4346-9DC7-BBC811285184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4742D5A-7313-4346-9DC7-BBC811285184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4742D5A-7313-4346-9DC7-BBC811285184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4742D5A-7313-4346-9DC7-BBC811285184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCAA334F-4D14-43A1-A6DB-AA4A813B78D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCAA334F-4D14-43A1-A6DB-AA4A813B78D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCAA334F-4D14-43A1-A6DB-AA4A813B78D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCAA334F-4D14-43A1-A6DB-AA4A813B78D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD4CCC5-09CD-4DD4-BBF3-10822632D2B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD4CCC5-09CD-4DD4-BBF3-10822632D2B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD4CCC5-09CD-4DD4-BBF3-10822632D2B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD4CCC5-09CD-4DD4-BBF3-10822632D2B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -166,6 +186,9 @@ Global
 		{C0AA3413-4894-4A56-83F9-F5872BB91503} = {FAD74354-EA33-436B-ABBC-01A0AD9A3960}
 		{36146EA9-16A1-4CD6-BF9E-CA0D9E84D6D6} = {FAD74354-EA33-436B-ABBC-01A0AD9A3960}
 		{ABD117FF-EE98-46B2-B9C5-80AA9654C87F} = {FAD74354-EA33-436B-ABBC-01A0AD9A3960}
+		{D4742D5A-7313-4346-9DC7-BBC811285184} = {8633C658-1B1A-4F3D-B07E-F514F746A36C}
+		{BCAA334F-4D14-43A1-A6DB-AA4A813B78D6} = {8633C658-1B1A-4F3D-B07E-F514F746A36C}
+		{9BD4CCC5-09CD-4DD4-BBF3-10822632D2B9} = {8633C658-1B1A-4F3D-B07E-F514F746A36C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {38C1C8D0-29B8-47BE-95B8-F061645B809A}

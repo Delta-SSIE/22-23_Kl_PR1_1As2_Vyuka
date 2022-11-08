@@ -7,7 +7,7 @@
             //Console.WriteLine("Zadej slovo, ukonči mezerníkem.");
             //string slovo = "";
             //int delka = 0;
-            //char znak = 'a';
+            //char znak = 'a'; //vraz tam cokoliv
 
             //while (znak != ' ')
             //{
@@ -27,7 +27,7 @@
             
             char znak = Console.ReadKey().KeyChar;
 
-            while (znak != ' ')
+            while (char.IsLetter(znak))
             {
                 slovo += znak;
                 delka++;

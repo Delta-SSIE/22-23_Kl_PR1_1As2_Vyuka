@@ -1,4 +1,4 @@
-﻿namespace _04_For_07_Kam_vez_2
+﻿namespace _04_For_08_Kam_kral_2
 {
     internal class Program
     {
@@ -18,7 +18,7 @@
                 jeChyba = false;
 
                 //načíst vstup
-                Console.WriteLine("Zadej pozici věže: ");
+                Console.WriteLine("Zadej pozici krále: ");
                 vstup = Console.ReadLine().ToUpper();
 
                 //zkontrolovat a rozdělit na souřadnice
@@ -61,22 +61,25 @@
                         Console.BackgroundColor = white;
                     }
 
-                    //označím pozici věže
-                    if (y == cisloRadku && x == cisloSloupce)
+                    int rozdilX = Math.Abs(cisloSloupce - x);
+                    int rozdilY = Math.Abs(cisloRadku - y);
+
+                    //označím pozici krále
+                    if (rozdilX == 0 && rozdilY == 0)
                     {
                         Console.ForegroundColor = ConsoleColor.Cyan;
                         Console.Write("R ");
                         Console.ForegroundColor = text;
                     }
-                    //označím pozici, kam věž útočí - má jen 1 souřadnici stejnou
-                    else if (y == cisloRadku || x == cisloSloupce)
+                    //označím pozici, kam král dojde - liší se o max 1 v každé souřadnici
+                    else if (rozdilX < 2 && rozdilY < 2)
                     {
                         Console.ForegroundColor = ConsoleColor.Magenta;
                         Console.Write("# ");
                         Console.ForegroundColor = text;
                     }
                     else
-                    { 
+                    {
                         Console.Write("  ");
                     }
                 }

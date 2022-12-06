@@ -95,6 +95,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_For_06_Kam_vez_1", "04_F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_For_07_Kam_vez_2", "04_For_07_Kam_vez_2\04_For_07_Kam_vez_2.csproj", "{59D68DA4-4F6B-4C1B-BEEB-15407F8DC566}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_For_08_Kam_kral_2", "04_For_08_Kam_kral_2\04_For_08_Kam_kral_2.csproj", "{7BC89787-C966-4263-AD19-B07CDF6F82AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -265,6 +267,10 @@ Global
 		{59D68DA4-4F6B-4C1B-BEEB-15407F8DC566}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59D68DA4-4F6B-4C1B-BEEB-15407F8DC566}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59D68DA4-4F6B-4C1B-BEEB-15407F8DC566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC89787-C966-4263-AD19-B07CDF6F82AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC89787-C966-4263-AD19-B07CDF6F82AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC89787-C966-4263-AD19-B07CDF6F82AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC89787-C966-4263-AD19-B07CDF6F82AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
